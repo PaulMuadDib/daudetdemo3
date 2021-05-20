@@ -1,0 +1,35 @@
+{
+    "name": "DaudetDemo3",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "SonicPiOSC": "github:rbilsland/pxt-sonicpiosc#8de80ff278bc1e54a1470edb2957c62d09eca56c",
+        "microphone": "*",
+        "microbit-GY521": "github:pauldfoster/pxt-microbit-gy521#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
